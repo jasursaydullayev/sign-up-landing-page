@@ -1,0 +1,227 @@
+/* noto-sans-mende-kikakui-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans Mende Kikakui';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-mende-kikakui-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "noto-sans-mende-kikakui", sans-serif;
+  font-weight: 600;
+  /* font-size: 18px;
+  line-height: 28px; */
+  color: #000;
+  background-color: #f4f8fa;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "noto-sans-mende-kikakui", sans-serif;
+  color: #000;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px 5px;
+  font-family: inherit;
+  width: 416px;
+  height: 48px;
+
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid #00000017;
+  margin-bottom: 20px;
+}
+p {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  padding-left: 33px;
+  padding-right: 33px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+
+.sitenav {
+  display: flex;
+  justify-content: space-between;
+}
+.site-list {
+  display: flex;
+  gap: 40px;
+}
+.site-list-item {
+  padding-top: 10px;
+}
+.button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  height: 24px;
+  border-radius: 4px;
+}
+.btn {
+  width: 58px;
+}
+.btn2 {
+  width: 130px;
+}
+.btn3 {
+  width: 55px;
+}
+
+/* MAIN */
+
+input#Name,
+#surname {
+  width: 200px;
+  font-family: "noto-sans-mende-kikakui", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.login-link {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: #01bab3;
+}
+.form {
+  background-color: #fff;
+  width: 496px;
+  height: 849px;
+  padding: 30px;
+  margin-bottom: 50px;
+  border: 1px solid #00000017;
+}
+.main-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.main-top-info h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main-top-p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.main-info {
+  display: flex;
+  gap: 16px;
+}
+.date-birth {
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+#birth {
+  border: 2px solid #d9d9d9;
+}
+#jinsi {
+  width: 10px;
+  height: 10px;
+}
+.jinslar {
+  display: flex;
+  width: 200px;
+  height: 48px;
+  gap: 13px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.jinslar-2 {
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+}
+.jinslar_2 {
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+}
+.gender_female {
+  width: 180px;
+  height: 24px;
+}
+
+.skype {
+  margin-bottom: 30px;
+}
+#email {
+  font-family: "noto-sans-mende-kikakui", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 2px solid #d9d9d9;
+}
+.promo {
+  margin-bottom: 30px;
+}
+#promo {
+  font-family: "noto-sans-mende-kikakui", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 2px solid #d9d9d9;
+}
+.form-btn {
+  width: 416px;
+  height: 48px;
+  top: 841px;
+  left: 475px;
+  border-radius: 4px;
+  background: #01bab3;
+  color: #fff;
+
+  border: 2px solid #01bab3;
+}
+h3 {
+  font-family: "noto-sans-mende-kikakui", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}

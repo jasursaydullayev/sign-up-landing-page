@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in up</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container sitenav">
+        <img src="./img/Site-logo.svg" alt="" />
+        <nav>
+          <ul class="site-list">
+            <li class="site-list-item">
+              <a href="" class="site-link">Services</a>
+            </li>
+            <li class="site-list-item">
+              <a href="" class="site-link">About</a>
+            </li>
+            <li class="site-list-item">
+              <a href="" class="site-link">Contacts</a>
+            </li>
+            <li class="site-list-item">
+              <button class="button btn">
+                <a href="./index2.html" class="site-link">Log in</a>
+              </button>
+            </li>
+            <li class="site-list-item">
+              <button class="button btn2">
+                <a href="./index.html" class="site-link">Open an account</a>
+              </button>
+            </li>
+            <li class="site-list-item">
+              <button class="button btn3">
+                <a href="" class="site-link">EN</a>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container form">
+        <div class="main-logo"><img src="./img/Site-logo.svg" alt="" /></div>
+        <div class="main-top-info">
+          <h1>Welcome to ByTrend!</h1>
+          <div class="main-top-p">
+            <p>Already have an account?</p>
+            <a class="login-link" href="./index2.html">Log in</a>
+          </div>
+        </div>
+
+        <form action="https://echo.htmlacademy.ru">
+          <div class="main-info">
+            <div class="names">
+              <label for="Name">First name</label>
+              <input
+                type="text"
+                id="Name"
+                name="Name"
+                placeholder="Jasurbek"
+                required
+              />
+            </div>
+            <div class="names">
+              <label for="surname"> Your Surname</label>
+              <input
+                type="text"
+                id="surname"
+                name="Surname"
+                placeholder="Your surname"
+                required
+              />
+            </div>
+          </div>
+          <div class="date-birth">
+            <label for="birth">Birth day</label>
+            <input
+              type="date"
+              id="birth"
+              name="birth date"
+              placeholder="18.10.2007"
+            />
+          </div>
+          <div class="gender">
+            <label
+              >Gender
+
+              <div class="jinslar">
+                <div class="jinslar-2">
+                  <label class="gender-female">
+                    <input type="radio" id="jinsi" name="gender" required />
+                    Female
+                  </label>
+                </div>
+
+                <div class="jinslar_2">
+                  <label class="gender_male">
+                    <input type="radio" id="jinsi" name="gender" required />
+                    Male
+                  </label>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div class="skype">
+            <label for="email">Skype</label>
+            <input
+              type="text"
+              id="email"
+              name="E-mail"
+              placeholder="Your login Skype"
+              required
+            />
+          </div>
+          <div class="promo">
+            <label for="promo">Promo</label>
+            <input
+              type="text"
+              id="promo"
+              name="Promo"
+              placeholder="Your Promo"
+              required
+            />
+          </div>
+          <button class="form-btn">Continue ➡  </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <h3>©2020 All Rights Reserved. Lorem Technologies, Inc.</h3>
+      </div>
+    </footer>
+  </body>
+</html>
